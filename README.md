@@ -1,9 +1,7 @@
-这是 eggome 的网站。
+这里保存了人生何处不青山熟络的科幻群网友档案。
 
-他也被叫做“人生何处不青山”或者“埋骨何须青山”。
+[卷儿田](JuanErTian.html)
 
-目前这个网站只有一个次级页面：
+[布吉岛](BuJiDao.html)
 
-[HelloWorld.html](HelloWorld.html)
-
-总之就是这样。
+[鹅鹅鹅](EEE.html)
