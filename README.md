@@ -4,6 +4,6 @@
 
 目前这个网站只有一个次级页面：
 
-[HelloWorld.html](eggome.github.io/HelloWorld.html)
+[HelloWorld.html](HelloWorld.html)
 
 总之就是这样。
