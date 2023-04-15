@@ -1,2 +1,5 @@
-This is the website of eggome.
-In some places, he is called "人生何处不青山" or "埋骨何须青山".
+这是 eggome 的网站。
+
+他也被叫做“人生何处不青山”或者“埋骨何须青山”。
+
+总之就是这样。
