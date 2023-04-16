@@ -1,4 +1,6 @@
-这里保存了人生何处不青山熟络的科幻群网友档案。
+这里保存了和人生何处不青山熟络的科幻群网友档案。
+
+[人生何处不青山](LifeIsNotOutToGetYou.html)
 
 [卷儿田](JuanErTian.html)
 
