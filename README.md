@@ -4,9 +4,9 @@
 
 [卷儿田](JuanErTian.html)
 
-[布吉岛](BuJiDao.html)（施工中）
+[布吉岛](BuJiDao.html)
 
-[鹅鹅鹅](EEE.html)（未施工）
+[鹅鹅鹅](EEE.html)（施工中）
 
 [举杯邀明月](JuBeiYaoMingYue.html)（未施工）
 
