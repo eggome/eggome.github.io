@@ -6,7 +6,7 @@
 
 [布吉岛](BuJiDao.html)
 
-[鹅鹅鹅](EEE.html)（施工中）
+[鹅鹅鹅](EEE.html)
 
 [举杯邀明月](JuBeiYaoMingYue.html)（未施工）
 
