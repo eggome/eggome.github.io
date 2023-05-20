@@ -8,9 +8,9 @@
 
 [鹅鹅鹅](EEE.html)
 
-[举杯邀明月](JuBeiYaoMingYue.html)（施工中）
+[举杯邀明月](JuBeiYaoMingYue.html)
 
-[膈肌](GeJi.html)（未施工）
+[膈肌](GeJi.html)（施工中）
 
 [纱羽](ShaYu.html)（未施工）
 
