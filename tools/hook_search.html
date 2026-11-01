@@ -165,7 +165,7 @@
         ? (item.size === null ? '(null)' : item.size)
         : '(无 size)';
       const kg = getKg(item);
-      return `size=${size}  strength_kg=${Number.isFinite(kg) ? kg : '无效'}  ${compactItem(item)}`;
+      return `大小：${size}——拉力：${Number.isFinite(kg) ? kg : '无效'}kg`;
     }
 
     /* ---------- 数据加载完成后的统一处理 ---------- */
@@ -253,7 +253,7 @@
     });
 
     /* ---------- 筛选 ---------- */
-    function run() {
+        function run() {
       if (!data) { alert('数据尚未加载'); return; }
 
       const a = parseFloat(minA.value);
@@ -263,38 +263,53 @@
 
       const groups = normalize(data);
       let totalMatched = 0;
+      let shownGroups = 0;
       const lines = [];
       let html = '';
 
       for (const g of groups) {
         const { matched, invalid } = filterGroup(g.arr, a, b);
+
+        // 关键：没有匹配成员的组直接跳过，不渲染
+        if (matched.length === 0) continue;
+
         totalMatched += matched.length;
+        shownGroups++;
 
         html += `<div class="group">
           <h3>${escapeHtml(g.name)}
             <span class="badge">匹配 ${matched.length} / 共 ${g.arr.length}</span>
-          </h3>`;
+          </h3>
+          <details open><summary>查看匹配成员</summary><ul>`;
 
-        if (matched.length) {
-          html += `<details><summary>查看匹配成员</summary><ul>`;
-          for (const m of matched) {
-            const text = itemText(m);
-            html += `<li>${escapeHtml(text)}</li>`;
-            lines.push(`[${g.name}] ${text}`);
-          }
-          html += `</ul></details>`;
-        } else {
-          html += `<p class="muted">没有 strength_kg 落在范围内的成员</p>`;
+        for (const m of matched) {
+          const text = itemText(m);
+          html += `<li>${escapeHtml(text)}</li>`;
+          lines.push(`[${g.name}] ${text}`);
         }
+
+        html += `</ul></details>`;
+
         if (invalid) {
           html += `<p class="muted">${invalid} 个成员没有有效 strength_kg，已忽略</p>`;
         }
+
         html += `</div>`;
       }
 
+      // 全部组都没有匹配时的提示
+      if (shownGroups === 0) {
+        summaryEl.innerHTML =
+          `<p>strength_kg ∈ [${a}, ${b}] 范围内<strong>没有任何匹配成员</strong></p>`;
+        resultsEl.innerHTML = '';
+        exportText = '';
+        exportBtn.disabled = true;
+        return;
+      }
+
       summaryEl.innerHTML =
-        `<p>共 <strong>${groups.length}</strong> 个数组，` +
-        `strength_kg ∈ [${a}, ${b}] 的成员共 <strong>${totalMatched}</strong> 个</p>`;
+        `<p>共 <strong>${groups.length}</strong> 种鱼钩，其中 <strong>${shownGroups}</strong> 个有匹配` +
+        `拉力 ∈ [${a}, ${b}] 的成员共 <strong>${totalMatched}</strong> 个</p>`;
       resultsEl.innerHTML = html;
 
       exportText = `strength_kg ∈ [${a}, ${b}]，共 ${totalMatched} 个匹配成员\n\n` + lines.join('\n');
