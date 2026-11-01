@@ -1,0 +1,5147 @@
+[
+  {
+    "hook_type": "Alliance Curved Shank",
+    "hooks": [
+      {
+        "size": "S1-1",
+        "strength_kg": 64.6
+      },
+      {
+        "size": "S2-1",
+        "strength_kg": 64.6
+      },
+      {
+        "size": "XM-1",
+        "strength_kg": 64.6
+      },
+      {
+        "size": "S1-2",
+        "strength_kg": 62.56
+      },
+      {
+        "size": "S2-2",
+        "strength_kg": 62.56
+      },
+      {
+        "size": "XM-2",
+        "strength_kg": 62.56
+      },
+      {
+        "size": "S1-4",
+        "strength_kg": 59.84
+      },
+      {
+        "size": "S2-4",
+        "strength_kg": 59.84
+      },
+      {
+        "size": "XM-4",
+        "strength_kg": 59.84
+      },
+      {
+        "size": "S1-5",
+        "strength_kg": 57.12
+      },
+      {
+        "size": "S2-5",
+        "strength_kg": 57.12
+      },
+      {
+        "size": "S1-6",
+        "strength_kg": 52.36
+      },
+      {
+        "size": "S2-6",
+        "strength_kg": 52.36
+      },
+      {
+        "size": "S1-8",
+        "strength_kg": 47.6
+      },
+      {
+        "size": "S2-8",
+        "strength_kg": 47.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Alliance Stiff Rig",
+    "hooks": [
+      {
+        "size": "S1-1",
+        "strength_kg": 64.6
+      },
+      {
+        "size": "S1-2",
+        "strength_kg": 62.56
+      },
+      {
+        "size": "S1-4",
+        "strength_kg": 59.84
+      },
+      {
+        "size": "S1-5",
+        "strength_kg": 57.12
+      },
+      {
+        "size": "S1-6",
+        "strength_kg": 52.36
+      },
+      {
+        "size": "S1-8",
+        "strength_kg": 47.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Alliance Wide Gape",
+    "hooks": [
+      {
+        "size": "S1-1",
+        "strength_kg": 62.7
+      },
+      {
+        "size": "S2-1",
+        "strength_kg": 62.7
+      },
+      {
+        "size": "S1-2",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S2-2",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S1-4",
+        "strength_kg": 58.08
+      },
+      {
+        "size": "S2-4",
+        "strength_kg": 58.08
+      },
+      {
+        "size": "S1-5",
+        "strength_kg": 55.44
+      },
+      {
+        "size": "S2-5",
+        "strength_kg": 55.44
+      },
+      {
+        "size": "S1-6",
+        "strength_kg": 50.82
+      },
+      {
+        "size": "S2-6",
+        "strength_kg": 50.82
+      },
+      {
+        "size": "S1-8",
+        "strength_kg": 46.2
+      },
+      {
+        "size": "S2-8",
+        "strength_kg": 46.2
+      }
+    ]
+  },
+  {
+    "hook_type": "APX Reactive Original",
+    "hooks": [
+      {
+        "size": "#2",
+        "strength_kg": 47.84
+      },
+      {
+        "size": "#4",
+        "strength_kg": 45.76
+      },
+      {
+        "size": "#5",
+        "strength_kg": 43.68
+      },
+      {
+        "size": "#6",
+        "strength_kg": 40.04
+      },
+      {
+        "size": "#8",
+        "strength_kg": 36.4
+      }
+    ]
+  },
+  {
+    "hook_type": "APX Reactive Shank",
+    "hooks": [
+      {
+        "size": "#2",
+        "strength_kg": 49.68
+      },
+      {
+        "size": "#4",
+        "strength_kg": 47.52
+      },
+      {
+        "size": "#5",
+        "strength_kg": 45.36
+      },
+      {
+        "size": "#6",
+        "strength_kg": 41.58
+      },
+      {
+        "size": "#8",
+        "strength_kg": 37.8
+      },
+      {
+        "size": "#10",
+        "strength_kg": 35.1
+      }
+    ]
+  },
+  {
+    "hook_type": "APX Reactive Stiff R",
+    "hooks": [
+      {
+        "size": "#2",
+        "strength_kg": 47.84
+      },
+      {
+        "size": "#4",
+        "strength_kg": 45.76
+      },
+      {
+        "size": "#5",
+        "strength_kg": 43.68
+      },
+      {
+        "size": "#6",
+        "strength_kg": 40.04
+      },
+      {
+        "size": "#8",
+        "strength_kg": 36.4
+      }
+    ]
+  },
+  {
+    "hook_type": "APX Reactive WG",
+    "hooks": [
+      {
+        "size": "#2",
+        "strength_kg": 46.0
+      },
+      {
+        "size": "#4",
+        "strength_kg": 44.0
+      },
+      {
+        "size": "#5",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "#6",
+        "strength_kg": 38.5
+      },
+      {
+        "size": "#8",
+        "strength_kg": 35.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Avenger Jig Series s",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 63.05
+      },
+      {
+        "size": "#2",
+        "strength_kg": 63.05
+      },
+      {
+        "size": "#3",
+        "strength_kg": 61.75
+      },
+      {
+        "size": "#4",
+        "strength_kg": 59.8
+      },
+      {
+        "size": "#5",
+        "strength_kg": 57.2
+      },
+      {
+        "size": "#6",
+        "strength_kg": 50.05
+      },
+      {
+        "size": "#7",
+        "strength_kg": 45.5
+      },
+      {
+        "size": "#8",
+        "strength_kg": 42.25
+      },
+      {
+        "size": "#9",
+        "strength_kg": 42.25
+      },
+      {
+        "size": "#10",
+        "strength_kg": 42.25
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Avenger OFS Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 36.86
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 36.86
+      },
+      {
+        "size": "S1",
+        "strength_kg": 36.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 34.96
+      },
+      {
+        "size": "S4",
+        "strength_kg": 33.44
+      },
+      {
+        "size": "S6",
+        "strength_kg": 29.26
+      },
+      {
+        "size": "S8",
+        "strength_kg": 26.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Bloody Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S1",
+        "strength_kg": 66.5
+      },
+      {
+        "size": "S2",
+        "strength_kg": 64.4
+      },
+      {
+        "size": "S3",
+        "strength_kg": 63.0
+      },
+      {
+        "size": "S4",
+        "strength_kg": 61.6
+      },
+      {
+        "size": "S5",
+        "strength_kg": 58.8
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.9
+      },
+      {
+        "size": "S7",
+        "strength_kg": 51.1
+      },
+      {
+        "size": "S8",
+        "strength_kg": 49.0
+      },
+      {
+        "size": "S9",
+        "strength_kg": 46.9
+      },
+      {
+        "size": "S10",
+        "strength_kg": 45.5
+      },
+      {
+        "size": "S11",
+        "strength_kg": 44.1
+      },
+      {
+        "size": "S12",
+        "strength_kg": 42.7
+      },
+      {
+        "size": "S13",
+        "strength_kg": 41.3
+      },
+      {
+        "size": "S14",
+        "strength_kg": 39.9
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks FishEye Jig Series s",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 77.0
+      },
+      {
+        "size": "#2",
+        "strength_kg": 77.0
+      },
+      {
+        "size": "#3",
+        "strength_kg": 77.0
+      },
+      {
+        "size": "#4",
+        "strength_kg": 74.69
+      },
+      {
+        "size": "#5",
+        "strength_kg": 74.69
+      },
+      {
+        "size": "#6",
+        "strength_kg": 74.69
+      },
+      {
+        "size": "#7",
+        "strength_kg": 73.15
+      },
+      {
+        "size": "#8",
+        "strength_kg": 70.84
+      },
+      {
+        "size": "#9",
+        "strength_kg": 67.76
+      },
+      {
+        "size": "#10",
+        "strength_kg": 59.29
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Imp OFS Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S1",
+        "strength_kg": 53.2
+      },
+      {
+        "size": "S2",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "S4",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "S6",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "S8",
+        "strength_kg": 39.2
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Imp WGT Series",
+    "hooks": [
+      {
+        "size": "#1/0 1.75g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 2.5g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 3.75g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 5g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 7.5g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 9g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#1/0 12g",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "#2 1.75g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 2.5g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 3.75g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 5g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 7.5g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 9g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#2 12g",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "#4 - 1.75g",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "#4 - 2.5g",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "#4 - 3.75g",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "#4 - 5g",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "#4 - 7.5g",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "#6 - 1.75g",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "#6 - 2.5g",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "#6 - 3.75g",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "#6 - 5g",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "#8 - 1.75g",
+        "strength_kg": 39.2
+      },
+      {
+        "size": "#8 - 2.5g",
+        "strength_kg": 39.2
+      },
+      {
+        "size": "#8 - 3.75g",
+        "strength_kg": 39.2
+      },
+      {
+        "size": "#8 - 5g",
+        "strength_kg": 39.2
+      },
+      {
+        "size": "#10 - 1.5g",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "#10 - 1.75g",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "#10 - 1g",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "#10 - 2.5g",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "#12 - 1.5g",
+        "strength_kg": 34.16
+      },
+      {
+        "size": "#12 - 1.75g",
+        "strength_kg": 34.16
+      },
+      {
+        "size": "#12 - 1g",
+        "strength_kg": 34.16
+      },
+      {
+        "size": "#12 - 2.5g",
+        "strength_kg": 34.16
+      },
+      {
+        "size": "#14 - 1.5g",
+        "strength_kg": 31.92
+      },
+      {
+        "size": "#14 - 1.75g",
+        "strength_kg": 31.92
+      },
+      {
+        "size": "#14 - 1g",
+        "strength_kg": 31.92
+      },
+      {
+        "size": "#14 - 2.5g",
+        "strength_kg": 31.92
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Magneric LF Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S1",
+        "strength_kg": 66.5
+      },
+      {
+        "size": "S2",
+        "strength_kg": 64.4
+      },
+      {
+        "size": "S4",
+        "strength_kg": 61.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Magneric Treble F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S1",
+        "strength_kg": 66.5
+      },
+      {
+        "size": "S2",
+        "strength_kg": 64.4
+      },
+      {
+        "size": "S4",
+        "strength_kg": 61.6
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.9
+      },
+      {
+        "size": "S8",
+        "strength_kg": 49.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Magneric Treble",
+    "hooks": [
+      {
+        "size": "S6/0",
+        "strength_kg": 105.0
+      },
+      {
+        "size": "S5/0",
+        "strength_kg": 87.5
+      },
+      {
+        "size": "S3/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 67.9
+      },
+      {
+        "size": "S1",
+        "strength_kg": 66.5
+      },
+      {
+        "size": "S2",
+        "strength_kg": 64.4
+      },
+      {
+        "size": "S4",
+        "strength_kg": 61.6
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.9
+      },
+      {
+        "size": "S8",
+        "strength_kg": 49.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Marlin Series S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 322.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 258.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 219.3
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 193.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 161.25
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 129.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 129.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks OFS Double hook S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 322.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 258.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 219.3
+      },
+      {
+        "size": "7/0",
+        "strength_kg": 206.4
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 193.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 161.25
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 129.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks OFS Jig head M1",
+    "hooks": [
+      {
+        "size": "12/0-100",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "12/0-120",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "12/0-150",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "12/0-180",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "12/0-200",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "12/0-250",
+        "strength_kg": 285.0
+      },
+      {
+        "size": "10/0-85",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-100",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-120",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-150",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-180",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-200",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "10/0-250",
+        "strength_kg": 228.0
+      },
+      {
+        "size": "8/0-55",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-70",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-85",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-100",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-120",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-150",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "8/0-180",
+        "strength_kg": 193.8
+      },
+      {
+        "size": "6/0-40",
+        "strength_kg": 171.0
+      },
+      {
+        "size": "6/0-55",
+        "strength_kg": 171.0
+      },
+      {
+        "size": "6/0-70",
+        "strength_kg": 171.0
+      },
+      {
+        "size": "6/0-85",
+        "strength_kg": 171.0
+      },
+      {
+        "size": "6/0-100",
+        "strength_kg": 171.0
+      },
+      {
+        "size": "5/0-30",
+        "strength_kg": 142.5
+      },
+      {
+        "size": "5/0-40",
+        "strength_kg": 142.5
+      },
+      {
+        "size": "5/0-55",
+        "strength_kg": 142.5
+      },
+      {
+        "size": "5/0-60",
+        "strength_kg": 142.5
+      },
+      {
+        "size": "5/0-85",
+        "strength_kg": 142.5
+      },
+      {
+        "size": "4/0-20",
+        "strength_kg": 114.0
+      },
+      {
+        "size": "4/0-30",
+        "strength_kg": 114.0
+      },
+      {
+        "size": "4/0-40",
+        "strength_kg": 114.0
+      },
+      {
+        "size": "4/0-55",
+        "strength_kg": 114.0
+      },
+      {
+        "size": "2/0-20",
+        "strength_kg": 110.58
+      },
+      {
+        "size": "2/0-30",
+        "strength_kg": 110.58
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks OFS Treble",
+    "hooks": [
+      {
+        "size": "14/0",
+        "strength_kg": 450.0
+      },
+      {
+        "size": "12/0",
+        "strength_kg": 375.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 300.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 255.0
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 225.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 187.5
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 150.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Gummi Makk S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 245.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 196.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 166.6
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 147.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Series",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 40.74
+      },
+      {
+        "size": "#2",
+        "strength_kg": 40.74
+      },
+      {
+        "size": "#3",
+        "strength_kg": 40.74
+      },
+      {
+        "size": "#4",
+        "strength_kg": 39.9
+      },
+      {
+        "size": "#5",
+        "strength_kg": 38.64
+      },
+      {
+        "size": "#6",
+        "strength_kg": 36.96
+      },
+      {
+        "size": "#7",
+        "strength_kg": 29.4
+      },
+      {
+        "size": "#8",
+        "strength_kg": 27.3
+      },
+      {
+        "size": "#9",
+        "strength_kg": 27.3
+      },
+      {
+        "size": "#10",
+        "strength_kg": 27.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Spec-BH-HQSFJ",
+    "hooks": [
+      {
+        "size": "3/0",
+        "strength_kg": 54.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 52.38
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Spec-BH-HQSFLPJ",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 56.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Spec-BH-HQSPSJ",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 68.75
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 55.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Spec-BH-SBTDWB",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 71.25
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 57.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Jig Spec-BH-SBTSC",
+    "hooks": [
+      {
+        "size": "4/0",
+        "strength_kg": 57.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage MR Series S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 260.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 208.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 176.8
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 156.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 130.0
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 104.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 104.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 100.88
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage MR-AB Series S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 247.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 198.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 168.3
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 148.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 123.75
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 99.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 99.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 96.03
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Series S1",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 45.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 45.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 43.65
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 43.65
+      },
+      {
+        "size": "S1",
+        "strength_kg": 42.75
+      },
+      {
+        "size": "S2",
+        "strength_kg": 41.4
+      },
+      {
+        "size": "S3",
+        "strength_kg": 40.5
+      },
+      {
+        "size": "S4",
+        "strength_kg": 39.6
+      },
+      {
+        "size": "S5",
+        "strength_kg": 37.8
+      },
+      {
+        "size": "S6",
+        "strength_kg": 34.65
+      },
+      {
+        "size": "S7",
+        "strength_kg": 32.85
+      },
+      {
+        "size": "S8",
+        "strength_kg": 31.5
+      },
+      {
+        "size": "S9",
+        "strength_kg": 30.15
+      },
+      {
+        "size": "S10",
+        "strength_kg": 29.25
+      },
+      {
+        "size": "S11",
+        "strength_kg": 28.35
+      },
+      {
+        "size": "S12",
+        "strength_kg": 27.45
+      },
+      {
+        "size": "S13",
+        "strength_kg": 26.55
+      },
+      {
+        "size": "S14",
+        "strength_kg": 25.65
+      },
+      {
+        "size": "S15",
+        "strength_kg": 25.2
+      },
+      {
+        "size": "S16",
+        "strength_kg": 24.75
+      },
+      {
+        "size": "S17",
+        "strength_kg": 22.5
+      },
+      {
+        "size": "S18",
+        "strength_kg": 20.25
+      },
+      {
+        "size": "S19",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S20",
+        "strength_kg": 16.2
+      },
+      {
+        "size": "S22",
+        "strength_kg": 14.85
+      },
+      {
+        "size": "S24",
+        "strength_kg": 13.5
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Series S2",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 60.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 60.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 58.2
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 58.2
+      },
+      {
+        "size": "S1",
+        "strength_kg": 57.0
+      },
+      {
+        "size": "S2",
+        "strength_kg": 55.2
+      },
+      {
+        "size": "S3",
+        "strength_kg": 54.0
+      },
+      {
+        "size": "S4",
+        "strength_kg": 52.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 50.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 46.2
+      },
+      {
+        "size": "S7",
+        "strength_kg": 43.8
+      },
+      {
+        "size": "S8",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "S9",
+        "strength_kg": 40.2
+      },
+      {
+        "size": "S10",
+        "strength_kg": 39.0
+      },
+      {
+        "size": "S11",
+        "strength_kg": 37.8
+      },
+      {
+        "size": "S12",
+        "strength_kg": 36.6
+      },
+      {
+        "size": "S13",
+        "strength_kg": 35.4
+      },
+      {
+        "size": "S14",
+        "strength_kg": 34.2
+      },
+      {
+        "size": "S15",
+        "strength_kg": 33.6
+      },
+      {
+        "size": "S16",
+        "strength_kg": 33.0
+      },
+      {
+        "size": "S17",
+        "strength_kg": 30.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 27.0
+      },
+      {
+        "size": "S19",
+        "strength_kg": 24.0
+      },
+      {
+        "size": "S20",
+        "strength_kg": 21.6
+      },
+      {
+        "size": "S22",
+        "strength_kg": 19.8
+      },
+      {
+        "size": "S24",
+        "strength_kg": 18.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Series S3",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S1",
+        "strength_kg": 52.25
+      },
+      {
+        "size": "S2",
+        "strength_kg": 50.6
+      },
+      {
+        "size": "S3",
+        "strength_kg": 49.5
+      },
+      {
+        "size": "S4",
+        "strength_kg": 48.4
+      },
+      {
+        "size": "S5",
+        "strength_kg": 46.2
+      },
+      {
+        "size": "S6",
+        "strength_kg": 42.35
+      },
+      {
+        "size": "S7",
+        "strength_kg": 40.15
+      },
+      {
+        "size": "S8",
+        "strength_kg": 38.5
+      },
+      {
+        "size": "S9",
+        "strength_kg": 36.85
+      },
+      {
+        "size": "S10",
+        "strength_kg": 35.75
+      },
+      {
+        "size": "S11",
+        "strength_kg": 34.65
+      },
+      {
+        "size": "S12",
+        "strength_kg": 33.55
+      },
+      {
+        "size": "S13",
+        "strength_kg": 32.45
+      },
+      {
+        "size": "S14",
+        "strength_kg": 31.35
+      },
+      {
+        "size": "S15",
+        "strength_kg": 30.8
+      },
+      {
+        "size": "S16",
+        "strength_kg": 30.25
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Series S4",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 52.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 52.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 50.44
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 50.44
+      },
+      {
+        "size": "S1",
+        "strength_kg": 49.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 47.84
+      },
+      {
+        "size": "S3",
+        "strength_kg": 46.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 45.76
+      },
+      {
+        "size": "S5",
+        "strength_kg": 43.68
+      },
+      {
+        "size": "S6",
+        "strength_kg": 40.04
+      },
+      {
+        "size": "S7",
+        "strength_kg": 37.96
+      },
+      {
+        "size": "S8",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "S9",
+        "strength_kg": 34.84
+      },
+      {
+        "size": "S10",
+        "strength_kg": 33.8
+      },
+      {
+        "size": "S11",
+        "strength_kg": 32.76
+      },
+      {
+        "size": "S12",
+        "strength_kg": 31.72
+      },
+      {
+        "size": "S13",
+        "strength_kg": 30.68
+      },
+      {
+        "size": "S14",
+        "strength_kg": 29.64
+      },
+      {
+        "size": "S15",
+        "strength_kg": 29.12
+      },
+      {
+        "size": "S16",
+        "strength_kg": 28.6
+      },
+      {
+        "size": "S17",
+        "strength_kg": 26.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 23.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Treble F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S1",
+        "strength_kg": 52.25
+      },
+      {
+        "size": "S2",
+        "strength_kg": 50.6
+      },
+      {
+        "size": "S4",
+        "strength_kg": 48.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 42.35
+      },
+      {
+        "size": "S8",
+        "strength_kg": 38.5
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Rage Treble",
+    "hooks": [
+      {
+        "size": "S6/0",
+        "strength_kg": 82.5
+      },
+      {
+        "size": "S5/0",
+        "strength_kg": 68.75
+      },
+      {
+        "size": "S3/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 55.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 53.35
+      },
+      {
+        "size": "S1",
+        "strength_kg": 52.25
+      },
+      {
+        "size": "S2",
+        "strength_kg": 50.6
+      },
+      {
+        "size": "S4",
+        "strength_kg": 48.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 42.35
+      },
+      {
+        "size": "S8",
+        "strength_kg": 38.5
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Ultra LF Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S1",
+        "strength_kg": 93.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 90.16
+      },
+      {
+        "size": "S4",
+        "strength_kg": 86.24
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Ultra Series",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 88.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 88.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 85.36
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 85.36
+      },
+      {
+        "size": "S1",
+        "strength_kg": 83.6
+      },
+      {
+        "size": "S2",
+        "strength_kg": 80.96
+      },
+      {
+        "size": "S3",
+        "strength_kg": 79.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 77.44
+      },
+      {
+        "size": "S5",
+        "strength_kg": 73.92
+      },
+      {
+        "size": "S6",
+        "strength_kg": 67.76
+      },
+      {
+        "size": "S7",
+        "strength_kg": 64.24
+      },
+      {
+        "size": "S8",
+        "strength_kg": 61.6
+      },
+      {
+        "size": "S9",
+        "strength_kg": 58.96
+      },
+      {
+        "size": "S10",
+        "strength_kg": 57.2
+      },
+      {
+        "size": "S11",
+        "strength_kg": 55.44
+      },
+      {
+        "size": "S12",
+        "strength_kg": 53.68
+      },
+      {
+        "size": "S13",
+        "strength_kg": 51.92
+      },
+      {
+        "size": "S14",
+        "strength_kg": 50.16
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Ultra Treble F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S1",
+        "strength_kg": 93.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 90.16
+      },
+      {
+        "size": "S4",
+        "strength_kg": 86.24
+      },
+      {
+        "size": "S6",
+        "strength_kg": 75.46
+      },
+      {
+        "size": "S8",
+        "strength_kg": 68.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Berserk Hooks Ultra Treble",
+    "hooks": [
+      {
+        "size": "S6/0",
+        "strength_kg": 147.0
+      },
+      {
+        "size": "S5/0",
+        "strength_kg": 122.5
+      },
+      {
+        "size": "S3/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 98.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 95.06
+      },
+      {
+        "size": "S1",
+        "strength_kg": 93.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 90.16
+      },
+      {
+        "size": "S4",
+        "strength_kg": 86.24
+      },
+      {
+        "size": "S6",
+        "strength_kg": 75.46
+      },
+      {
+        "size": "S8",
+        "strength_kg": 68.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Curved Shank",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 57.0
+      },
+      {
+        "size": "S2",
+        "strength_kg": 55.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 52.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 50.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 46.2
+      },
+      {
+        "size": "S8",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "S10",
+        "strength_kg": 39.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Long Shank",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 57.0
+      },
+      {
+        "size": "S2",
+        "strength_kg": 55.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 52.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 50.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 46.2
+      },
+      {
+        "size": "S8",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "S10",
+        "strength_kg": 39.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Master Chod",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 55.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 53.36
+      },
+      {
+        "size": "S4",
+        "strength_kg": 51.04
+      },
+      {
+        "size": "S5",
+        "strength_kg": 48.72
+      },
+      {
+        "size": "S6",
+        "strength_kg": 44.66
+      },
+      {
+        "size": "S8",
+        "strength_kg": 40.6
+      },
+      {
+        "size": "S10",
+        "strength_kg": 37.7
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Master",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 55.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 53.36
+      },
+      {
+        "size": "S4",
+        "strength_kg": 51.04
+      },
+      {
+        "size": "S5",
+        "strength_kg": 48.72
+      },
+      {
+        "size": "S6",
+        "strength_kg": 44.66
+      },
+      {
+        "size": "S8",
+        "strength_kg": 40.6
+      },
+      {
+        "size": "S10",
+        "strength_kg": 37.7
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Master WG",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 53.2
+      },
+      {
+        "size": "S2",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "S4",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "S5",
+        "strength_kg": 47.04
+      },
+      {
+        "size": "S6",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "S8",
+        "strength_kg": 39.2
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Raptor Chod",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 58.9
+      },
+      {
+        "size": "S2",
+        "strength_kg": 57.04
+      },
+      {
+        "size": "S4",
+        "strength_kg": 54.56
+      },
+      {
+        "size": "S5",
+        "strength_kg": 52.08
+      },
+      {
+        "size": "S6",
+        "strength_kg": 47.74
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra CF Raptor",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 58.9
+      },
+      {
+        "size": "S2",
+        "strength_kg": 57.04
+      },
+      {
+        "size": "S4",
+        "strength_kg": 54.56
+      },
+      {
+        "size": "S5",
+        "strength_kg": 52.08
+      },
+      {
+        "size": "S6",
+        "strength_kg": 47.74
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra Kalmar-HR Special FMJ",
+    "hooks": [
+      {
+        "size": "3/0",
+        "strength_kg": 57.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 55.29
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra Kalmar-SBT Special PDW",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 80.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 64.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra Kalmar-SBT Special VC",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 80.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 64.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Aberdeen S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 265.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 212.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 180.2
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 159.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 132.5
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 106.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 106.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 102.82
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW FishEye S1-W",
+    "hooks": [
+      {
+        "size": "12/0-90",
+        "strength_kg": 305.0
+      },
+      {
+        "size": "12/0-115",
+        "strength_kg": 305.0
+      },
+      {
+        "size": "12/0-140",
+        "strength_kg": 305.0
+      },
+      {
+        "size": "12/0-175",
+        "strength_kg": 305.0
+      },
+      {
+        "size": "12/0-220",
+        "strength_kg": 305.0
+      },
+      {
+        "size": "10/0-75",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "10/0-90",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "10/0-115",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "10/0-140",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "10/0-175",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "10/0-220",
+        "strength_kg": 244.0
+      },
+      {
+        "size": "8/0-75",
+        "strength_kg": 207.4
+      },
+      {
+        "size": "8/0-90",
+        "strength_kg": 207.4
+      },
+      {
+        "size": "8/0-115",
+        "strength_kg": 207.4
+      },
+      {
+        "size": "8/0-140",
+        "strength_kg": 207.4
+      },
+      {
+        "size": "8/0-175",
+        "strength_kg": 207.4
+      },
+      {
+        "size": "6/0-50",
+        "strength_kg": 183.0
+      },
+      {
+        "size": "6/0-75",
+        "strength_kg": 183.0
+      },
+      {
+        "size": "6/0-90",
+        "strength_kg": 183.0
+      },
+      {
+        "size": "6/0-115",
+        "strength_kg": 183.0
+      },
+      {
+        "size": "6/0-140",
+        "strength_kg": 183.0
+      },
+      {
+        "size": "5/0-35",
+        "strength_kg": 152.5
+      },
+      {
+        "size": "5/0-50",
+        "strength_kg": 152.5
+      },
+      {
+        "size": "5/0-75",
+        "strength_kg": 152.5
+      },
+      {
+        "size": "5/0-90",
+        "strength_kg": 152.5
+      },
+      {
+        "size": "4/0-25",
+        "strength_kg": 122.0
+      },
+      {
+        "size": "4/0-35",
+        "strength_kg": 122.0
+      },
+      {
+        "size": "4/0-50",
+        "strength_kg": 122.0
+      },
+      {
+        "size": "2/0-25",
+        "strength_kg": 118.34
+      },
+      {
+        "size": "2/0-35",
+        "strength_kg": 118.34
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Gummi Makk S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 272.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 218.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 185.3
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 163.5
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Mega Raptor S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 345.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 276.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 234.6
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 207.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 172.5
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 138.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Original S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 280.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 224.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 190.4
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 168.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 140.0
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 112.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 112.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 108.64
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Tristar",
+    "hooks": [
+      {
+        "size": "16/0",
+        "strength_kg": 660.0
+      },
+      {
+        "size": "14/0",
+        "strength_kg": 495.0
+      },
+      {
+        "size": "12/0",
+        "strength_kg": 412.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 330.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 280.5
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 247.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 206.25
+      }
+    ]
+  },
+  {
+    "hook_type": "Cobra SW Twin hook S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 362.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 290.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 246.5
+      },
+      {
+        "size": "7/0",
+        "strength_kg": 232.0
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 217.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 181.25
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 145.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Express Fishing Stinger Jig Head",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "#2",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "#3",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "#4",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "#5",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "#6",
+        "strength_kg": 6.65
+      }
+    ]
+  },
+  {
+    "hook_type": "Express Fishing Stinger Offset",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 7.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 7.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "S1",
+        "strength_kg": 6.65
+      },
+      {
+        "size": "S2",
+        "strength_kg": 6.44
+      }
+    ]
+  },
+  {
+    "hook_type": "Express Fishing Stinger Orig",
+    "hooks": [
+      {
+        "size": null,
+        "strength_kg": 6.79
+      },
+      {
+        "size": null,
+        "strength_kg": 6.65
+      },
+      {
+        "size": null,
+        "strength_kg": 6.44
+      },
+      {
+        "size": null,
+        "strength_kg": 6.16
+      },
+      {
+        "size": null,
+        "strength_kg": 5.39
+      },
+      {
+        "size": null,
+        "strength_kg": 4.9
+      },
+      {
+        "size": null,
+        "strength_kg": 4.55
+      },
+      {
+        "size": null,
+        "strength_kg": 4.27
+      },
+      {
+        "size": null,
+        "strength_kg": 3.99
+      },
+      {
+        "size": null,
+        "strength_kg": 3.85
+      },
+      {
+        "size": null,
+        "strength_kg": 3.15
+      }
+    ]
+  },
+  {
+    "hook_type": "Express Fishing Stinger Triple Furry",
+    "hooks": [
+      {
+        "size": "S2/0",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "S4",
+        "strength_kg": 6.16
+      },
+      {
+        "size": "S8",
+        "strength_kg": 4.9
+      }
+    ]
+  },
+  {
+    "hook_type": "Express Fishing Stinger Triple",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 7.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 6.79
+      },
+      {
+        "size": "S1",
+        "strength_kg": 6.65
+      },
+      {
+        "size": "S2",
+        "strength_kg": 6.44
+      },
+      {
+        "size": "S4",
+        "strength_kg": 6.16
+      },
+      {
+        "size": "S6",
+        "strength_kg": 5.39
+      },
+      {
+        "size": "S8",
+        "strength_kg": 4.9
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Carp CL-1",
+    "hooks": [
+      {
+        "size": "S2",
+        "strength_kg": 38.64
+      },
+      {
+        "size": "S4",
+        "strength_kg": 36.96
+      },
+      {
+        "size": "S5",
+        "strength_kg": 35.28
+      },
+      {
+        "size": "S6",
+        "strength_kg": 32.34
+      },
+      {
+        "size": "S8",
+        "strength_kg": 29.4
+      },
+      {
+        "size": "S10",
+        "strength_kg": 27.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Carp SR-1",
+    "hooks": [
+      {
+        "size": "S2",
+        "strength_kg": 32.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 30.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 29.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 26.95
+      },
+      {
+        "size": "S8",
+        "strength_kg": 24.5
+      },
+      {
+        "size": "S10",
+        "strength_kg": 22.75
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Classic Head JH-201",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#2",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#3",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#4",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#5",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#6",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#7",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#8",
+        "strength_kg": 29.44
+      },
+      {
+        "size": "#9",
+        "strength_kg": 29.44
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Deadly loop CL-18",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S1",
+        "strength_kg": 53.2
+      },
+      {
+        "size": "S2",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "S4",
+        "strength_kg": 49.28
+      },
+      {
+        "size": "S6",
+        "strength_kg": 43.12
+      },
+      {
+        "size": "S8",
+        "strength_kg": 39.2
+      },
+      {
+        "size": "S10",
+        "strength_kg": 36.4
+      },
+      {
+        "size": "S12",
+        "strength_kg": 34.16
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Feather Head JH-101",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "#2",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "#3",
+        "strength_kg": 15.12
+      },
+      {
+        "size": "#4",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "#5",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "#6",
+        "strength_kg": 13.14
+      },
+      {
+        "size": "#7",
+        "strength_kg": 13.14
+      },
+      {
+        "size": "#8",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "#9",
+        "strength_kg": 11.7
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook CL-11",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 18.05
+      },
+      {
+        "size": "S2",
+        "strength_kg": 17.48
+      },
+      {
+        "size": "S3",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S4",
+        "strength_kg": 16.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 15.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 14.63
+      },
+      {
+        "size": "S7",
+        "strength_kg": 13.87
+      },
+      {
+        "size": "S8",
+        "strength_kg": 13.3
+      },
+      {
+        "size": "S9",
+        "strength_kg": 12.73
+      },
+      {
+        "size": "S10",
+        "strength_kg": 12.35
+      },
+      {
+        "size": "S11",
+        "strength_kg": 11.97
+      },
+      {
+        "size": "S12",
+        "strength_kg": 11.59
+      },
+      {
+        "size": "S13",
+        "strength_kg": 11.21
+      },
+      {
+        "size": "S14",
+        "strength_kg": 10.83
+      },
+      {
+        "size": "S15",
+        "strength_kg": 10.64
+      },
+      {
+        "size": "S16",
+        "strength_kg": 10.45
+      },
+      {
+        "size": "S17",
+        "strength_kg": 9.5
+      },
+      {
+        "size": "S18",
+        "strength_kg": 8.55
+      },
+      {
+        "size": "S19",
+        "strength_kg": 7.6
+      },
+      {
+        "size": "S20",
+        "strength_kg": 6.84
+      },
+      {
+        "size": "S22",
+        "strength_kg": 6.27
+      },
+      {
+        "size": "S24",
+        "strength_kg": 5.7
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook CL-12",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 20.9
+      },
+      {
+        "size": "S2",
+        "strength_kg": 20.24
+      },
+      {
+        "size": "S3",
+        "strength_kg": 19.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 19.36
+      },
+      {
+        "size": "S5",
+        "strength_kg": 18.48
+      },
+      {
+        "size": "S6",
+        "strength_kg": 16.94
+      },
+      {
+        "size": "S7",
+        "strength_kg": 16.06
+      },
+      {
+        "size": "S8",
+        "strength_kg": 15.4
+      },
+      {
+        "size": "S9",
+        "strength_kg": 14.74
+      },
+      {
+        "size": "S10",
+        "strength_kg": 14.3
+      },
+      {
+        "size": "S11",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S12",
+        "strength_kg": 13.42
+      },
+      {
+        "size": "S13",
+        "strength_kg": 12.98
+      },
+      {
+        "size": "S14",
+        "strength_kg": 12.54
+      },
+      {
+        "size": "S15",
+        "strength_kg": 12.32
+      },
+      {
+        "size": "S16",
+        "strength_kg": 12.1
+      },
+      {
+        "size": "S17",
+        "strength_kg": 11.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 9.9
+      },
+      {
+        "size": "S19",
+        "strength_kg": 8.8
+      },
+      {
+        "size": "S20",
+        "strength_kg": 7.92
+      },
+      {
+        "size": "S22",
+        "strength_kg": 7.26
+      },
+      {
+        "size": "S24",
+        "strength_kg": 6.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook CL-13",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 42.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 40.74
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 40.74
+      },
+      {
+        "size": "S1",
+        "strength_kg": 39.9
+      },
+      {
+        "size": "S2",
+        "strength_kg": 38.64
+      },
+      {
+        "size": "S3",
+        "strength_kg": 37.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 36.96
+      },
+      {
+        "size": "S5",
+        "strength_kg": 35.28
+      },
+      {
+        "size": "S6",
+        "strength_kg": 32.34
+      },
+      {
+        "size": "S7",
+        "strength_kg": 30.66
+      },
+      {
+        "size": "S8",
+        "strength_kg": 29.4
+      },
+      {
+        "size": "S9",
+        "strength_kg": 28.14
+      },
+      {
+        "size": "S10",
+        "strength_kg": 27.3
+      },
+      {
+        "size": "S11",
+        "strength_kg": 26.46
+      },
+      {
+        "size": "S12",
+        "strength_kg": 25.62
+      },
+      {
+        "size": "S13",
+        "strength_kg": 24.78
+      },
+      {
+        "size": "S14",
+        "strength_kg": 23.94
+      },
+      {
+        "size": "S15",
+        "strength_kg": 23.52
+      },
+      {
+        "size": "S16",
+        "strength_kg": 23.1
+      },
+      {
+        "size": "S17",
+        "strength_kg": 21.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 18.9
+      },
+      {
+        "size": "S19",
+        "strength_kg": 16.8
+      },
+      {
+        "size": "S20",
+        "strength_kg": 15.12
+      },
+      {
+        "size": "S22",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S24",
+        "strength_kg": 12.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook LF-10",
+    "hooks": [
+      {
+        "size": "S4/0",
+        "strength_kg": 26.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook OFS-10",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S4",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S6",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S8",
+        "strength_kg": 12.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook OFS-11",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 26.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 26.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 25.22
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 25.22
+      },
+      {
+        "size": "S1",
+        "strength_kg": 24.7
+      },
+      {
+        "size": "S2",
+        "strength_kg": 23.92
+      },
+      {
+        "size": "S4",
+        "strength_kg": 22.88
+      },
+      {
+        "size": "S6",
+        "strength_kg": 20.02
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook OFS-12",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 22.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 22.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 21.34
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 21.34
+      },
+      {
+        "size": "S1",
+        "strength_kg": 20.9
+      },
+      {
+        "size": "S2",
+        "strength_kg": 20.24
+      },
+      {
+        "size": "S4",
+        "strength_kg": 19.36
+      },
+      {
+        "size": "S6",
+        "strength_kg": 16.94
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook OFS-13",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 19.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 19.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 18.43
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 18.43
+      },
+      {
+        "size": "S1",
+        "strength_kg": 18.05
+      },
+      {
+        "size": "S2",
+        "strength_kg": 17.48
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Hook WGT-10",
+    "hooks": [
+      {
+        "size": "S1/0-1.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1/0-2",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1/0-2.75",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1/0-3.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1/0-5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1/0-7.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-1.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-2",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-2.75",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-3.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0-7.5",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1-1.5",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S1-2",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S1-2.75",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S1-3.5",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S1-5",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S1-7.5",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S2-1.5",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S2-2",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S2-2.75",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S2-3.5",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S2-5",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S2-7.5",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S4-1.5",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S4-2",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S4-2.75",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S4-3.5",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S4-5",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S4-7.5",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S6-1.5",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S6-2",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S6-2.75",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S6-3.5",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S6-5",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S8-1.5",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S8-2",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S8-2.75",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S8-3.5",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S8-5",
+        "strength_kg": 12.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-10",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S4",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S6",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S8",
+        "strength_kg": 12.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-10F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S4",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S6",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S8",
+        "strength_kg": 12.6
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-11",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S1",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 29.44
+      },
+      {
+        "size": "S4",
+        "strength_kg": 28.16
+      },
+      {
+        "size": "S6",
+        "strength_kg": 24.64
+      },
+      {
+        "size": "S8",
+        "strength_kg": 22.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-11F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S1",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 29.44
+      },
+      {
+        "size": "S4",
+        "strength_kg": 28.16
+      },
+      {
+        "size": "S6",
+        "strength_kg": 24.64
+      },
+      {
+        "size": "S8",
+        "strength_kg": 22.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-12",
+    "hooks": [
+      {
+        "size": "S6/0",
+        "strength_kg": 84.0
+      },
+      {
+        "size": "S5/0",
+        "strength_kg": 70.0
+      },
+      {
+        "size": "S3/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S1",
+        "strength_kg": 53.2
+      },
+      {
+        "size": "S2",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "S4",
+        "strength_kg": 49.28
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Happy Three TRPL-12F",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 56.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 54.32
+      },
+      {
+        "size": "S1",
+        "strength_kg": 53.2
+      },
+      {
+        "size": "S2",
+        "strength_kg": 51.52
+      },
+      {
+        "size": "S4",
+        "strength_kg": 49.28
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Heavy Head JH-401",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "#2",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "#3",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "#4",
+        "strength_kg": 38.0
+      },
+      {
+        "size": "#5",
+        "strength_kg": 38.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Marine Series M-16 S",
+    "hooks": [
+      {
+        "size": "12/0",
+        "strength_kg": 145.0
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 116.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 98.6
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 87.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 72.5
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 58.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 58.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 56.26
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Protected Head JH-301",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#2",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#3",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#4",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "#5",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#6",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#7",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "#8",
+        "strength_kg": 29.44
+      },
+      {
+        "size": "#9",
+        "strength_kg": 29.44
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Silk Series CL-14",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 25.22
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 25.22
+      },
+      {
+        "size": "S1",
+        "strength_kg": 24.7
+      },
+      {
+        "size": "S2",
+        "strength_kg": 23.92
+      },
+      {
+        "size": "S3",
+        "strength_kg": 23.4
+      },
+      {
+        "size": "S4",
+        "strength_kg": 22.88
+      },
+      {
+        "size": "S5",
+        "strength_kg": 21.84
+      },
+      {
+        "size": "S6",
+        "strength_kg": 20.02
+      },
+      {
+        "size": "S7",
+        "strength_kg": 18.98
+      },
+      {
+        "size": "S8",
+        "strength_kg": 18.2
+      },
+      {
+        "size": "S9",
+        "strength_kg": 17.42
+      },
+      {
+        "size": "S10",
+        "strength_kg": 16.9
+      },
+      {
+        "size": "S11",
+        "strength_kg": 16.38
+      },
+      {
+        "size": "S12",
+        "strength_kg": 15.86
+      },
+      {
+        "size": "S13",
+        "strength_kg": 15.34
+      },
+      {
+        "size": "S14",
+        "strength_kg": 14.82
+      },
+      {
+        "size": "S15",
+        "strength_kg": 14.56
+      },
+      {
+        "size": "S16",
+        "strength_kg": 14.3
+      },
+      {
+        "size": "S17",
+        "strength_kg": 13.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 11.7
+      },
+      {
+        "size": "S19",
+        "strength_kg": 10.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Silk Series CL-15",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 27.16
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 27.16
+      },
+      {
+        "size": "S1",
+        "strength_kg": 26.6
+      },
+      {
+        "size": "S2",
+        "strength_kg": 25.76
+      },
+      {
+        "size": "S3",
+        "strength_kg": 25.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 24.64
+      },
+      {
+        "size": "S5",
+        "strength_kg": 23.52
+      },
+      {
+        "size": "S6",
+        "strength_kg": 21.56
+      },
+      {
+        "size": "S7",
+        "strength_kg": 20.44
+      },
+      {
+        "size": "S8",
+        "strength_kg": 19.6
+      },
+      {
+        "size": "S9",
+        "strength_kg": 18.76
+      },
+      {
+        "size": "S10",
+        "strength_kg": 18.2
+      },
+      {
+        "size": "S11",
+        "strength_kg": 17.64
+      },
+      {
+        "size": "S12",
+        "strength_kg": 17.08
+      },
+      {
+        "size": "S13",
+        "strength_kg": 16.52
+      },
+      {
+        "size": "S14",
+        "strength_kg": 15.96
+      },
+      {
+        "size": "S15",
+        "strength_kg": 15.68
+      },
+      {
+        "size": "S16",
+        "strength_kg": 15.4
+      },
+      {
+        "size": "S17",
+        "strength_kg": 14.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Silk Series CL-16",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 35.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 35.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 33.95
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 33.95
+      },
+      {
+        "size": "S1",
+        "strength_kg": 33.25
+      },
+      {
+        "size": "S2",
+        "strength_kg": 32.2
+      },
+      {
+        "size": "S3",
+        "strength_kg": 31.5
+      },
+      {
+        "size": "S4",
+        "strength_kg": 30.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 29.4
+      },
+      {
+        "size": "S6",
+        "strength_kg": 26.95
+      },
+      {
+        "size": "S7",
+        "strength_kg": 25.55
+      },
+      {
+        "size": "S8",
+        "strength_kg": 24.5
+      },
+      {
+        "size": "S9",
+        "strength_kg": 23.45
+      },
+      {
+        "size": "S10",
+        "strength_kg": 22.75
+      },
+      {
+        "size": "S11",
+        "strength_kg": 22.05
+      },
+      {
+        "size": "S12",
+        "strength_kg": 21.35
+      },
+      {
+        "size": "S13",
+        "strength_kg": 20.65
+      },
+      {
+        "size": "S14",
+        "strength_kg": 19.95
+      },
+      {
+        "size": "S15",
+        "strength_kg": 19.6
+      },
+      {
+        "size": "S16",
+        "strength_kg": 19.25
+      },
+      {
+        "size": "S17",
+        "strength_kg": 17.5
+      },
+      {
+        "size": "S18",
+        "strength_kg": 15.75
+      },
+      {
+        "size": "S19",
+        "strength_kg": 14.0
+      },
+      {
+        "size": "S20",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S22",
+        "strength_kg": 11.55
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Silk Series CL-17",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 32.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 31.04
+      },
+      {
+        "size": "S1",
+        "strength_kg": 30.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 29.44
+      },
+      {
+        "size": "S3",
+        "strength_kg": 28.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 28.16
+      },
+      {
+        "size": "S5",
+        "strength_kg": 26.88
+      },
+      {
+        "size": "S6",
+        "strength_kg": 24.64
+      },
+      {
+        "size": "S7",
+        "strength_kg": 23.36
+      },
+      {
+        "size": "S8",
+        "strength_kg": 22.4
+      },
+      {
+        "size": "S9",
+        "strength_kg": 21.44
+      },
+      {
+        "size": "S10",
+        "strength_kg": 20.8
+      },
+      {
+        "size": "S11",
+        "strength_kg": 20.16
+      },
+      {
+        "size": "S12",
+        "strength_kg": 19.52
+      },
+      {
+        "size": "S13",
+        "strength_kg": 18.88
+      },
+      {
+        "size": "S14",
+        "strength_kg": 18.24
+      },
+      {
+        "size": "S15",
+        "strength_kg": 17.92
+      },
+      {
+        "size": "S16",
+        "strength_kg": 17.6
+      },
+      {
+        "size": "S17",
+        "strength_kg": 16.0
+      },
+      {
+        "size": "S18",
+        "strength_kg": 14.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Spec-HCBC JH-701",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 58.75
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 47.0
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 45.59
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Spec-HCBF JH-702",
+    "hooks": [
+      {
+        "size": "5/0",
+        "strength_kg": 60.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 48.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons Spec-HCRS JH-703",
+    "hooks": [
+      {
+        "size": "3/0",
+        "strength_kg": 45.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 45.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 45.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Simmons ST-1",
+    "hooks": [
+      {
+        "size": "16/0",
+        "strength_kg": 340.0
+      },
+      {
+        "size": "14/0",
+        "strength_kg": 255.0
+      },
+      {
+        "size": "12/0",
+        "strength_kg": 212.5
+      },
+      {
+        "size": "10/0",
+        "strength_kg": 170.0
+      },
+      {
+        "size": "8/0",
+        "strength_kg": 144.5
+      },
+      {
+        "size": "6/0",
+        "strength_kg": 127.5
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 106.25
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 85.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia CHK101",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "S1",
+        "strength_kg": 13.3
+      },
+      {
+        "size": "S2",
+        "strength_kg": 12.88
+      },
+      {
+        "size": "S3",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S4",
+        "strength_kg": 12.32
+      },
+      {
+        "size": "S5",
+        "strength_kg": 11.76
+      },
+      {
+        "size": "S6",
+        "strength_kg": 10.78
+      },
+      {
+        "size": "S7",
+        "strength_kg": 10.22
+      },
+      {
+        "size": "S8",
+        "strength_kg": 9.8
+      },
+      {
+        "size": "S9",
+        "strength_kg": 9.38
+      },
+      {
+        "size": "S10",
+        "strength_kg": 9.1
+      },
+      {
+        "size": "S12",
+        "strength_kg": 8.54
+      },
+      {
+        "size": "S14",
+        "strength_kg": 7.98
+      },
+      {
+        "size": "S16",
+        "strength_kg": 7.7
+      },
+      {
+        "size": "S18",
+        "strength_kg": 6.3
+      },
+      {
+        "size": "S20",
+        "strength_kg": 5.04
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia CHK201",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S1",
+        "strength_kg": 11.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 11.04
+      },
+      {
+        "size": "S3",
+        "strength_kg": 10.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 10.56
+      },
+      {
+        "size": "S5",
+        "strength_kg": 10.08
+      },
+      {
+        "size": "S6",
+        "strength_kg": 9.24
+      },
+      {
+        "size": "S7",
+        "strength_kg": 8.76
+      },
+      {
+        "size": "S8",
+        "strength_kg": 8.4
+      },
+      {
+        "size": "S9",
+        "strength_kg": 8.04
+      },
+      {
+        "size": "S10",
+        "strength_kg": 7.8
+      },
+      {
+        "size": "S12",
+        "strength_kg": 7.32
+      },
+      {
+        "size": "S14",
+        "strength_kg": 6.84
+      },
+      {
+        "size": "S16",
+        "strength_kg": 6.6
+      },
+      {
+        "size": "S18",
+        "strength_kg": 5.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia CHK301",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 19.4
+      },
+      {
+        "size": "S1",
+        "strength_kg": 19.0
+      },
+      {
+        "size": "S2",
+        "strength_kg": 18.4
+      },
+      {
+        "size": "S3",
+        "strength_kg": 18.0
+      },
+      {
+        "size": "S4",
+        "strength_kg": 17.6
+      },
+      {
+        "size": "S5",
+        "strength_kg": 16.8
+      },
+      {
+        "size": "S6",
+        "strength_kg": 15.4
+      },
+      {
+        "size": "S7",
+        "strength_kg": 14.6
+      },
+      {
+        "size": "S8",
+        "strength_kg": 14.0
+      },
+      {
+        "size": "S9",
+        "strength_kg": 13.4
+      },
+      {
+        "size": "S10",
+        "strength_kg": 13.0
+      },
+      {
+        "size": "S12",
+        "strength_kg": 12.2
+      },
+      {
+        "size": "S14",
+        "strength_kg": 11.4
+      },
+      {
+        "size": "S16",
+        "strength_kg": 11.0
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia CHK401",
+    "hooks": [
+      {
+        "size": "S1/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 17.46
+      },
+      {
+        "size": "S1",
+        "strength_kg": 17.1
+      },
+      {
+        "size": "S2",
+        "strength_kg": 16.56
+      },
+      {
+        "size": "S3",
+        "strength_kg": 16.2
+      },
+      {
+        "size": "S4",
+        "strength_kg": 15.84
+      },
+      {
+        "size": "S5",
+        "strength_kg": 15.12
+      },
+      {
+        "size": "S6",
+        "strength_kg": 13.86
+      },
+      {
+        "size": "S7",
+        "strength_kg": 13.14
+      },
+      {
+        "size": "S8",
+        "strength_kg": 12.6
+      },
+      {
+        "size": "S9",
+        "strength_kg": 12.06
+      },
+      {
+        "size": "S10",
+        "strength_kg": 11.7
+      },
+      {
+        "size": "S12",
+        "strength_kg": 10.98
+      },
+      {
+        "size": "S14",
+        "strength_kg": 10.26
+      },
+      {
+        "size": "S16",
+        "strength_kg": 9.9
+      },
+      {
+        "size": "S18",
+        "strength_kg": 8.1
+      },
+      {
+        "size": "S20",
+        "strength_kg": 6.48
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia CHK501",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 24.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 24.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 23.28
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 23.28
+      },
+      {
+        "size": "S1",
+        "strength_kg": 22.8
+      },
+      {
+        "size": "S2",
+        "strength_kg": 22.08
+      },
+      {
+        "size": "S4",
+        "strength_kg": 21.12
+      },
+      {
+        "size": "S6",
+        "strength_kg": 18.48
+      },
+      {
+        "size": "S8",
+        "strength_kg": 16.8
+      },
+      {
+        "size": "S10",
+        "strength_kg": 15.6
+      },
+      {
+        "size": "S12",
+        "strength_kg": 14.64
+      },
+      {
+        "size": "S14",
+        "strength_kg": 13.68
+      },
+      {
+        "size": "S16",
+        "strength_kg": 13.2
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia JHHK 101",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#2",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#3",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#4",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#5",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#6",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#7",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#8",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#9",
+        "strength_kg": 13.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia JHHK 201",
+    "hooks": [
+      {
+        "size": "#1",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#2",
+        "strength_kg": 13.58
+      },
+      {
+        "size": "#3",
+        "strength_kg": 13.3
+      },
+      {
+        "size": "#4",
+        "strength_kg": 13.3
+      },
+      {
+        "size": "#5",
+        "strength_kg": 13.3
+      },
+      {
+        "size": "#6",
+        "strength_kg": 12.88
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia OFSHK101",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 12.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 12.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S1",
+        "strength_kg": 11.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 11.04
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia TRBHK101",
+    "hooks": [
+      {
+        "size": "S3/0",
+        "strength_kg": 12.0
+      },
+      {
+        "size": "S4/0",
+        "strength_kg": 12.0
+      },
+      {
+        "size": "S1/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S1",
+        "strength_kg": 11.4
+      },
+      {
+        "size": "S2",
+        "strength_kg": 11.04
+      },
+      {
+        "size": "S3",
+        "strength_kg": 10.8
+      },
+      {
+        "size": "S4",
+        "strength_kg": 10.56
+      },
+      {
+        "size": "S5",
+        "strength_kg": 10.08
+      },
+      {
+        "size": "S7",
+        "strength_kg": 8.76
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia TRBHK101FR",
+    "hooks": [
+      {
+        "size": "S4/0",
+        "strength_kg": 12.0
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "S1",
+        "strength_kg": 11.4
+      },
+      {
+        "size": "S3",
+        "strength_kg": 10.8
+      },
+      {
+        "size": "S5",
+        "strength_kg": 10.08
+      },
+      {
+        "size": "S7",
+        "strength_kg": 8.76
+      }
+    ]
+  },
+  {
+    "hook_type": "Syberia WGTHK",
+    "hooks": [
+      {
+        "size": "101-0350",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "101-0525",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "101-0700",
+        "strength_kg": 11.64
+      },
+      {
+        "size": "101-0175",
+        "strength_kg": 11.4
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith Chod Hook",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 65.55
+      },
+      {
+        "size": "S2",
+        "strength_kg": 63.48
+      },
+      {
+        "size": "S4",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 57.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.13
+      },
+      {
+        "size": "S8",
+        "strength_kg": 48.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith Etalon Chod",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 69.35
+      },
+      {
+        "size": "S2",
+        "strength_kg": 67.16
+      },
+      {
+        "size": "S4",
+        "strength_kg": 64.24
+      },
+      {
+        "size": "S5",
+        "strength_kg": 61.32
+      },
+      {
+        "size": "S6",
+        "strength_kg": 56.21
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith Etalon Mugga",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 69.35
+      },
+      {
+        "size": "S2",
+        "strength_kg": 67.16
+      },
+      {
+        "size": "S4",
+        "strength_kg": 64.24
+      },
+      {
+        "size": "S5",
+        "strength_kg": 61.32
+      },
+      {
+        "size": "S6",
+        "strength_kg": 56.21
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith Etalon Treble",
+    "hooks": [
+      {
+        "size": "6/0",
+        "strength_kg": 198.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 165.0
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 132.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 132.0
+      },
+      {
+        "size": "1/0",
+        "strength_kg": 128.04
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 128.04
+      },
+      {
+        "size": "1",
+        "strength_kg": 125.4
+      },
+      {
+        "size": "2",
+        "strength_kg": 121.44
+      },
+      {
+        "size": "4",
+        "strength_kg": 116.16
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith LS Mugga Hook",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 65.55
+      },
+      {
+        "size": "S2",
+        "strength_kg": 63.48
+      },
+      {
+        "size": "S4",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 57.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.13
+      },
+      {
+        "size": "S8",
+        "strength_kg": 48.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith Mugga Hook",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 65.55
+      },
+      {
+        "size": "S2",
+        "strength_kg": 63.48
+      },
+      {
+        "size": "S4",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 57.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.13
+      },
+      {
+        "size": "S8",
+        "strength_kg": 48.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith S1 Treble",
+    "hooks": [
+      {
+        "size": "6/0",
+        "strength_kg": 177.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 147.5
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 118.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 118.0
+      },
+      {
+        "size": "1/0",
+        "strength_kg": 114.46
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 114.46
+      },
+      {
+        "size": "1",
+        "strength_kg": 112.1
+      },
+      {
+        "size": "2",
+        "strength_kg": 108.56
+      },
+      {
+        "size": "4",
+        "strength_kg": 103.84
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith U1",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 65.55
+      },
+      {
+        "size": "S2",
+        "strength_kg": 63.48
+      },
+      {
+        "size": "S4",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 57.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.13
+      },
+      {
+        "size": "S8",
+        "strength_kg": 48.3
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith U1 Treble",
+    "hooks": [
+      {
+        "size": "6/0",
+        "strength_kg": 159.0
+      },
+      {
+        "size": "5/0",
+        "strength_kg": 132.5
+      },
+      {
+        "size": "3/0",
+        "strength_kg": 106.0
+      },
+      {
+        "size": "4/0",
+        "strength_kg": 106.0
+      },
+      {
+        "size": "1/0",
+        "strength_kg": 102.82
+      },
+      {
+        "size": "2/0",
+        "strength_kg": 102.82
+      },
+      {
+        "size": "1",
+        "strength_kg": 100.7
+      },
+      {
+        "size": "2",
+        "strength_kg": 97.52
+      },
+      {
+        "size": "4",
+        "strength_kg": 93.28
+      }
+    ]
+  },
+  {
+    "hook_type": "Zenith WG Hook",
+    "hooks": [
+      {
+        "size": "S1",
+        "strength_kg": 65.55
+      },
+      {
+        "size": "S2",
+        "strength_kg": 63.48
+      },
+      {
+        "size": "S4",
+        "strength_kg": 60.72
+      },
+      {
+        "size": "S5",
+        "strength_kg": 57.96
+      },
+      {
+        "size": "S6",
+        "strength_kg": 53.13
+      },
+      {
+        "size": "S8",
+        "strength_kg": 48.3
+      }
+    ]
+  },
+  {
+    "hook_type": "生锈的三钩",
+    "hooks": [
+      {
+        "size": "6号",
+        "strength_kg": 4.23
+      }
+    ]
+  },
+  {
+    "hook_type": "生锈的钓钩",
+    "hooks": [
+      {
+        "size": null,
+        "strength_kg": 4.4
+      }
+    ]
+  },
+  {
+    "hook_type": "阿塔曼 standard",
+    "hooks": [
+      {
+        "size": "S4/0",
+        "strength_kg": 46.0
+      },
+      {
+        "size": "S2/0",
+        "strength_kg": 44.62
+      },
+      {
+        "size": "S1",
+        "strength_kg": 43.7
+      },
+      {
+        "size": "S4",
+        "strength_kg": 40.48
+      },
+      {
+        "size": "S8",
+        "strength_kg": 32.2
+      },
+      {
+        "size": "S12",
+        "strength_kg": 28.06
+      },
+      {
+        "size": "S16",
+        "strength_kg": 25.3
+      }
+    ]
+  },
+  {
+    "hook_type": "阿塔曼 钓饵的鱼钩",
+    "hooks": [
+      {
+        "size": "S4/0",
+        "strength_kg": 45.0
+      }
+    ]
+  }
+]

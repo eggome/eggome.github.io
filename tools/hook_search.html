@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>钩子拉力范围筛选</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+           max-width: 980px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+    h1 { font-size: 1.35rem; }
+    .panel { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center;
+             margin: 1rem 0; padding: 1rem; background: #f6f8fa; border-radius: 8px; }
+    input[type=number] { width: 8rem; padding: .35rem .5rem; border: 1px solid #ccc;
+                         border-radius: 4px; }
+    button { padding: .45rem 1rem; border: 1px solid #1976d2; background: #1976d2;
+             color: #fff; border-radius: 4px; cursor: pointer; }
+    button:hover:not(:disabled) { background: #1565c0; }
+    button:disabled { background: #9bb7d8; border-color: #9bb7d8; cursor: not-allowed; }
+    .group { border: 1px solid #e1e4e8; border-radius: 6px;
+             padding: .55rem .8rem; margin: .75rem 0; }
+    .group h3 { font-size: .98rem; margin: .15rem 0 .5rem; }
+    .badge { font-size: .78rem; color: #fff; background: #1976d2;
+             padding: .1rem .45rem; border-radius: 10px; margin-left: .5rem; }
+    .muted { color: #888; font-size: .85rem; margin: .25rem 0; }
+    ul { margin: .25rem 0 .5rem 1.1rem; }
+    li { font-size: .86rem; word-break: break-all; margin: .12rem 0; }
+    summary { cursor: pointer; font-size: .88rem; color: #1976d2; }
+    code { background: #f1f3f5; padding: .05rem .25rem; border-radius: 3px; }
+    .warn { background: #fff8e1; border: 1px solid #ffcc80; border-radius: 6px;
+            padding: .6rem .8rem; font-size: .85rem; color: #8a6d00; margin: .75rem 0; }
+    .dropzone { border: 2px dashed #90caf9; border-radius: 8px;
+                padding: 1rem; text-align: center; color: #1976d2;
+                font-size: .9rem; margin: .75rem 0; display: none; }
+    .dropzone.show { display: block; }
+    body.dragging .dropzone { background: #e3f2fd; }
+    body.dragging::after {
+      content: "松开以加载 JSON";
+      position: fixed; inset: 0; display: flex; align-items: center;
+      justify-content: center; font-size: 1.4rem; color: #1976d2;
+      background: rgba(227,242,253,.7); pointer-events: none; z-index: 99;
+    }
+  </style>
+</head>
+<body>
+  <h1>钩子拉力范围筛选</h1>
+
+  <div class="panel">
+    <label>拉力范围：
+      <input type="number" id="minA" step="any" placeholder="a">
+    </label>
+    <span>~</span>
+    <label>
+      <input type="number" id="maxB" step="any" placeholder="b">
+    </label>
+    <button id="runBtn" disabled>筛选</button>
+    <button id="exportBtn" disabled>导出结果</button>
+  </div>
+
+  <div id="dropzone" class="dropzone">
+    把 <code>钩子拉力.json</code> 拖到这个窗口即可加载
+  </div>
+  <div id="warnBox"></div>
+  <p id="status" class="muted"></p>
+  <div id="summary"></div>
+  <div id="results"></div>
+
+  <script>
+  (() => {
+    // 要自动加载的同目录 JSON 文件名
+    const JSON_FILE = '钩子拉力.json';
+
+    const $ = id => document.getElementById(id);
+    const minA = $('minA'), maxB = $('maxB');
+    const runBtn = $('runBtn'), exportBtn = $('exportBtn');
+    const statusEl = $('status'), summaryEl = $('summary'), resultsEl = $('results');
+    const warnBox = $('warnBox'), dropzone = $('dropzone');
+
+    let data = null;
+    let exportText = '';
+
+    const escapeHtml = s => String(s).replace(/[&<>"']/g,
+      c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+
+    function parseNumber(v) {
+      if (typeof v === 'number') return v;
+      if (typeof v === 'string') { const t = v.trim(); return t ? Number(t) : NaN; }
+      return NaN;
+    }
+
+    function getKg(item) {
+      if (!item || typeof item !== 'object') return NaN;
+      const keys = ['strength_kg', 'kg', 'KG', 'weight_kg', 'weight'];
+      for (const k of keys) {
+        if (k in item) {
+          const n = parseNumber(item[k]);
+          if (Number.isFinite(n)) return n;
+        }
+      }
+      return NaN;
+    }
+
+    function findArrayProp(obj) {
+      if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return null;
+      if (Array.isArray(obj.hooks)) return { key: 'hooks', arr: obj.hooks };
+      for (const [k, v] of Object.entries(obj)) {
+        if (Array.isArray(v)) return { key: k, arr: v };
+      }
+      return null;
+    }
+
+    function normalize(input) {
+      const groups = [];
+      if (Array.isArray(input)) {
+        const everyHasArray = input.length > 0 && input.every(x =>
+          x && typeof x === 'object' && !Array.isArray(x) && findArrayProp(x)
+        );
+        if (everyHasArray) {
+          input.forEach((obj, i) => {
+            const found = findArrayProp(obj);
+            const name = obj.hook_type || obj.name || obj.title || `组 #${i + 1}`;
+            groups.push({ name, arr: found.arr, container: obj });
+          });
+        } else if (input.length && input.every(x => Array.isArray(x))) {
+          input.forEach((arr, i) => groups.push({ name: `数组 #${i + 1}`, arr }));
+        } else {
+          groups.push({ name: '根数组', arr: input });
+        }
+      } else if (input && typeof input === 'object') {
+        for (const [k, v] of Object.entries(input)) {
+          if (Array.isArray(v)) groups.push({ name: k, arr: v });
+        }
+      }
+      return groups;
+    }
+
+    function kgRange(groups) {
+      let lo = Infinity, hi = -Infinity;
+      for (const g of groups) for (const item of g.arr) {
+        const n = getKg(item);
+        if (Number.isFinite(n)) {
+          if (n < lo) lo = n;
+          if (n > hi) hi = n;
+        }
+      }
+      return { lo, hi };
+    }
+
+    function filterGroup(arr, a, b) {
+      const matched = []; let invalid = 0;
+      for (const item of arr) {
+        const n = getKg(item);
+        if (Number.isFinite(n)) {
+          if (n >= a && n <= b) matched.push(item);
+        } else invalid++;
+      }
+      return { matched, invalid };
+    }
+
+    function compactItem(item) {
+      try { return JSON.stringify(item); } catch { return String(item); }
+    }
+
+    function itemText(item) {
+      const size = item && typeof item === 'object' && 'size' in item
+        ? (item.size === null ? '(null)' : item.size)
+        : '(无 size)';
+      const kg = getKg(item);
+      return `size=${size}  strength_kg=${Number.isFinite(kg) ? kg : '无效'}  ${compactItem(item)}`;
+    }
+
+    /* ---------- 数据加载完成后的统一处理 ---------- */
+    function applyData(json, sourceName) {
+      data = json;
+      const groups = normalize(data);
+      const { lo, hi } = kgRange(groups);
+
+      statusEl.textContent = `已加载：${sourceName}，识别到 ${groups.length} 个数组` +
+        (Number.isFinite(lo) ? `；strength_kg 范围约 ${lo} ~ ${hi}` : '');
+
+      if (Number.isFinite(lo)) {
+        minA.placeholder = String(lo);
+        maxB.placeholder = String(hi);
+        if (!minA.value) minA.value = lo;
+        if (!maxB.value) maxB.value = hi;
+      }
+
+      summaryEl.innerHTML = '';
+      resultsEl.innerHTML = '';
+      exportBtn.disabled = true;
+      exportText = '';
+      runBtn.disabled = false;
+
+      warnBox.innerHTML = '';
+      dropzone.classList.remove('show');
+    }
+
+    function readFile(file) {
+      if (!file) return;
+      if (!/\.json$/i.test(file.name) && file.type !== 'application/json') {
+        alert('请拖入 .json 文件');
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          applyData(JSON.parse(reader.result), file.name);
+        } catch (err) {
+          alert('JSON 解析失败：' + err.message);
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    }
+
+    /* ---------- 自动 fetch 同目录 JSON（服务器场景） ---------- */
+    async function autoLoad() {
+      try {
+        const res = await fetch(encodeURI(JSON_FILE), { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        applyData(await res.json(), JSON_FILE);
+      } catch (err) {
+        // file:// 打开时会被浏览器拦截，或文件不存在
+        const isFile = location.protocol === 'file:';
+        warnBox.innerHTML = `<div class="warn">
+          未能自动读取同目录的 <code>${escapeHtml(JSON_FILE)}</code>（${escapeHtml(err.message)}）。<br>
+          ${isFile
+            ? '当前是以 <code>file://</code> 打开的，浏览器禁止页面自动读取本地同文件夹的文件。'
+            : '请确认 HTML 与 JSON 位于同一目录，且文件名一致。'}
+          <br><strong>把 <code>' + escapeHtml(JSON_FILE) + '</code> 直接拖进这个窗口即可加载。</strong>
+        </div>`;
+        dropzone.classList.add('show');
+      }
+    }
+
+    /* ---------- 拖拽加载 ---------- */
+    let dragDepth = 0;
+    window.addEventListener('dragenter', e => {
+      if (!e.dataTransfer || ![...e.dataTransfer.types].includes('Files')) return;
+      e.preventDefault(); dragDepth++; document.body.classList.add('dragging');
+    });
+    window.addEventListener('dragover', e => {
+      if (!e.dataTransfer || ![...e.dataTransfer.types].includes('Files')) return;
+      e.preventDefault(); e.dataTransfer.dropEffect = 'copy';
+    });
+    window.addEventListener('dragleave', e => {
+      dragDepth = Math.max(0, dragDepth - 1);
+      if (dragDepth === 0) document.body.classList.remove('dragging');
+    });
+    window.addEventListener('drop', e => {
+      e.preventDefault(); dragDepth = 0;
+      document.body.classList.remove('dragging');
+      const file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+      readFile(file);
+    });
+
+    /* ---------- 筛选 ---------- */
+    function run() {
+      if (!data) { alert('数据尚未加载'); return; }
+
+      const a = parseFloat(minA.value);
+      const b = parseFloat(maxB.value);
+      if (!Number.isFinite(a) || !Number.isFinite(b)) { alert('请输入有效的 a 和 b'); return; }
+      if (a > b) { alert('a 不能大于 b'); return; }
+
+      const groups = normalize(data);
+      let totalMatched = 0;
+      const lines = [];
+      let html = '';
+
+      for (const g of groups) {
+        const { matched, invalid } = filterGroup(g.arr, a, b);
+        totalMatched += matched.length;
+
+        html += `<div class="group">
+          <h3>${escapeHtml(g.name)}
+            <span class="badge">匹配 ${matched.length} / 共 ${g.arr.length}</span>
+          </h3>`;
+
+        if (matched.length) {
+          html += `<details><summary>查看匹配成员</summary><ul>`;
+          for (const m of matched) {
+            const text = itemText(m);
+            html += `<li>${escapeHtml(text)}</li>`;
+            lines.push(`[${g.name}] ${text}`);
+          }
+          html += `</ul></details>`;
+        } else {
+          html += `<p class="muted">没有 strength_kg 落在范围内的成员</p>`;
+        }
+        if (invalid) {
+          html += `<p class="muted">${invalid} 个成员没有有效 strength_kg，已忽略</p>`;
+        }
+        html += `</div>`;
+      }
+
+      summaryEl.innerHTML =
+        `<p>共 <strong>${groups.length}</strong> 个数组，` +
+        `strength_kg ∈ [${a}, ${b}] 的成员共 <strong>${totalMatched}</strong> 个</p>`;
+      resultsEl.innerHTML = html;
+
+      exportText = `strength_kg ∈ [${a}, ${b}]，共 ${totalMatched} 个匹配成员\n\n` + lines.join('\n');
+      exportBtn.disabled = lines.length === 0;
+    }
+
+    runBtn.addEventListener('click', run);
+    [minA, maxB].forEach(el => el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' && !runBtn.disabled) run();
+    }));
+
+    /* ---------- 导出 ---------- */
+    exportBtn.addEventListener('click', () => {
+      const blob = new Blob([exportText], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'hook-strength-filter-result.txt';
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    /* ---------- 启动 ---------- */
+    autoLoad();
+  })();
+  </script>
+</body>
+</html>
